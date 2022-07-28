@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <title>Externen CSS-Code verwenden</title>
+        <link href="kontakt.css" type="text/css" rel="stylesheet" />
+        <meta charset="utf-8" />
+    
+        <style>
+            a {color:rgb(94, 159, 173); text-decoration:none}
+            p { margin-right: 5em; margin-left: 0.75em}
+        </style>
+    
+    </head>
+    <body>
+
+
+
+    </div>
+
+
+    <div class="container"> 
+        <header>
+            <table class="burgerleiste">
+                <tr>
+                    <th><a href="index.html">home</a> </th>
+                    <th><a href="about.html">about</a></th>
+                    <th><a href="projekte.html">projekte</a></th>
+                    <th><a href="kontakt.html">impressum</a></th>
+                 </tr>
+                 <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                 </tr>
+        
+            </table></header>
+    
+            <article>
+                <h1>impressum</h1>
+                <h3>die klapprad-werkstatt </h3>
+                <p>67434 Neustadt an der Weinstraße</p>
+                <p>Musterstraße 000</p>
+                <p>Tel. 06321 0000000</p>
+                <p>Fax: 06321 00000 00000</p>
+                <p>E-Mail:</p>
+                <p>tanja.blabla@die-klapprad-werkstatt.de</p>
+                <p>serim.blablabla@die-klapprad-werkstatt.de</p>
+
+
+            
+            
+            </article>
+
+
+<aside>
+            <div id="contact-form" class="clearfix">
+                <h1>kontaktiere uns!</h1>
+                <h2>Wenn du Fragen hast oder ein Beratungsgespräch brauchst, rufe uns an oder schreib uns einfach hier, über unsere homepage. Wir freuen uns auf deine Nachricht.</h2>
+
+                <p></p>
+    
+
+                <form method="post" action="process.php">
+                    
+                    <p>
+                        <label for="name">Name: <span class="required">*</span></label>
+                        <input type="text" id="name" name="name" value="" placeholder="Dein Name" required="required" autofocus="autofocus" />
+                    </p>
+
+                    <p>
+                         <label for="email">E-Mail: <span class="required">*</span></label>
+                         <input type="email" id="email" name="email" value="" placeholder="name@example.com" required="required" />
+                    </p>
+
+                    <p>
+                         <label for="telefon">Tel./Mobil: </label>
+                        <input type="tel" id="telefon" name="telefon" value="" />
+                    </p>
+                    
+                    <p>
+                    <label for="Anfrage">Anfrage: </label>
+                    <select id="Anfrage" name="Anfrage">
+                        <option value="support">Support</option>
+                    </select>
+                    </p>
+                    <p></p>
+                    <p>
+                    <label for="message">Message: <span class="required">*</span></label>
+                    <textarea id="message" name="message" 
+                    placeholder="Your message must be greater than 20 charcters" required="required" data-minlength="20"></textarea>
+                    </p>
+                    <span id="loading"></span>
+                    <p>
+                    <input type="submit" value="Senden" id="submit-button" />
+             
+                </form>
+            </div>
+</aside>
+
+
+    </div>
+
+            </body>

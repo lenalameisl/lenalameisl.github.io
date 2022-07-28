@@ -1,0 +1,51 @@
+body 
+    {background-color: white; width:1500px; margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif; font-size: 14px; background-color: white; line-height:20px;}
+
+    .burgerleiste {font-size: 14px; float: right; margin-right: 21px; margin-top: -14px; padding: 14px; width: 500px; text-decoration:none; color:antiquewhite ;}
+td 
+    {margin-bottom: 0; margin-top: 0;}
+
+    .container { 
+        padding-top: 27px;
+        height:100px; 
+        display: grid; 
+        grid-template-rows: 70px 1fr 50px; 
+        grid-template-columns: 10% 10% 10% 70%; 
+      } 
+      header { 
+        margin-top: 0.8em;
+        grid-column-start:1; 
+        grid-column-end:5; 
+        grid-row-start:1; 
+        grid-row-end:2; 
+      } 
+      article { 
+        margin-left: 3em;
+        margin-right: 11em;
+        margin-top: 2em;
+        grid-column-start:1; 
+        grid-column-end:4; 
+        grid-row-start:2; 
+        grid-row-end:3; 
+      } 
+      aside { 
+        margin-left: 5em;
+        margin-right: 0em;
+
+        grid-column-start:4; 
+        grid-column-end:5; 
+        grid-row-start:2; 
+        grid-row-end:3; 
+        
+      } 
+h1
+{margin-left: 0.38em; margin-bottom: 3em;}
+
+a:hover
+{color:antiquewhite}
+
+
+h2
+{font-style: italic; font-size: 19px;}
+

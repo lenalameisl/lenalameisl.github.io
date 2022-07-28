@@ -1,0 +1,39 @@
+
+
+body 
+    {background-color: white; width:1500px; margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif; font-size: 14px; background-color: white; background-image: url("C:\Users\Lenovo U530\Downloads//grau.png") }
+
+.burgerleiste {font-size: 1.0em; float: right; margin-right: 1.5em; margin-top: -1em; padding: 1em; width: 500px; text-decoration:none; color:antiquewhite ;}
+
+
+
+div.text1
+     { text-align: left; }
+
+
+div.inhalt
+{margin: 40px; padding: 20px}
+
+
+a:hover
+{color:antiquewhite}
+
+div.jetztgehtsrund
+{margin-left: 10em;}
+
+div.serin
+{margin-top: 1.5em; margin-left: 3em; 
+    box-shadow: 5px 0px 10px grey;
+}
+
+
+
+h1
+{font-weight: 500; }
+
+h2
+{font-weight:400}
+
+
+

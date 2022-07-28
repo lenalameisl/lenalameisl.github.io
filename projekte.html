@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <title>Externen CSS-Code verwenden</title>
+        <link href="projekte.css" type="text/css" rel="stylesheet" />
+        <meta charset="utf-8" />
+        <style>
+            a {color:rgb(94, 159, 173); text-decoration:none}
+            p { margin-right: 5em; margin-left: 0.75em}
+        </style>
+    </head>
+    <body>
+
+       
+
+
+<div class = "burger">
+
+                <table class="burgerleiste">
+                    <tr>
+                        <th><a href="index.html">home</a> </th>
+                        <th><a href="about.html">about</a></th>
+                        <th><a href="projekte.html">projekte</a></th>
+                        <th><a href="kontakt.html">impressum</a></th>
+                     </tr>
+                     <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                     </tr>
+            
+                </table>
+        </div>
+
+<p>
+    <p>
+        
+    </p>
+</p>
+
+    <!-- zuerst das Sichtfenster -->
+<div class="cssSlider">
+ 
+    <!-- die inputs um den Slider zu Steuern -->
+    <input type="radio" name="slider" id="slide01" checked="checked">
+    <input type="radio" name="slider" id="slide02">
+    <input type="radio" name="slider" id="slide03">
+    <input type="radio" name="slider" id="slide04">
+ 
+    <!-- die einzelnen Slides, hier als Liste angelegt -->
+    <ul class="sliderElements">
+        <li>
+            <figure>
+                <img src="C:\Users\Lenovo U530\Downloads/fahrrad_braun.jpg" alt="klapprad_in_braun" >
+                <figcaption>braunes Klapprad aus der DDR, von Steffi</figcaption>
+            </figure>
+        </li>
+        <li>
+            <figure>
+                <img src="C:\Users\Lenovo U530\Downloads/fahrrad_orange.jpg" alt="klapprad_orange" >
+                <figcaption>orangenes Klapprad von Jürgen</figcaption>
+            </figure>
+        </li>
+        <li>
+            <figure>
+                <img src="C:\Users\Lenovo U530\Downloads/fahrrad_blau_weiß.jpg" alt="klapprad_in_weiss_blau" >
+                <figcaption>blaues Klapprad von Tine, aus 1972</figcaption>
+            </figure>
+        </li>
+        <li>
+            <figure>
+                <img src="C:\Users\Lenovo U530\Downloads/fahrrad_weiß.jpg" alt="kallprad_in_weiss" >
+                <figcaption>Hochzeitsgeschenk, Laura und Jasper</figcaption>
+            </figure>
+        </li>
+    </ul>
+ 
+    <!-- Eine Steuerung -->
+    <ul class="sliderControls">
+        <li><label for="slide01">1</label></li>
+        <li><label for="slide02">2</label></li>
+        <li><label for="slide03">3</label></li>
+        <li><label for="slide04">4</label></li>
+    </ul>
+</div>
